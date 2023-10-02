@@ -1,0 +1,57 @@
+import React, { useState } from "react";
+import { Select, Input } from "antd";
+
+const { Option } = Select;
+
+const YourComponent2: React.FC = () => {
+  const [selectedType, setSelectedType] = useState<string>(""); // State to track selected type
+  const [components, setComponents] = useState<React.ReactElement[]>([]);
+  const [componentKey, setComponentKey] = useState(0);
+
+  const handleChange = (value: string) => {
+    setSelectedType(value);
+  };
+  const addQuestion = () => {
+    let newComponents: React.ReactElement[] = [...components];
+
+    if (selectedType === "Paragraph" || selectedType === "Short answer") {
+      newComponents.push(<div key={componentKey}>{/* ... */}</div>);
+    } else if (
+      selectedType === "Multiple choice" ||
+      selectedType === "Dropdown"
+    ) {
+      newComponents.push(<div key={componentKey}>{/* ... */}</div>);
+    } else if (selectedType === "Yes/No") {
+      newComponents.push(<div key={componentKey}>{/* ... */}</div>);
+    } else if (selectedType === "Video question") {
+      newComponents.push(<div key={componentKey}>{/* ... */}</div>);
+    }
+
+    setComponents(newComponents);
+    setComponentKey((prevKey) => prevKey + 1);
+  };
+
+  return (
+    <div>
+      <div>
+        <button onClick={addQuestion}>Add Question</button>
+      </div>
+      <Select defaultValue="" style={{ width: "100%" }} onChange={handleChange}>
+        <Option value="Paragraph">Paragraph</Option>
+        <Option value="Short answer">Short answer</Option>
+        <Option value="Yes/No">Yes/No</Option>
+        <Option value="Dropdown">Dropdown</Option>
+        <Option value="Multiple choice">Multiple choice</Option>
+        <Option value="Date">Date</Option>
+        <Option value="Number">Number</Option>
+        <Option value="File upload">File upload</Option>
+        <Option value="Video question">Video question</Option>
+      </Select>
+      {components.map((component, index) => (
+        <div key={index}>{component}</div>
+      ))}
+    </div>
+  );
+};
+
+export default YourComponent2;

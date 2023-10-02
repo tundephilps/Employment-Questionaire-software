@@ -3,7 +3,7 @@ import { Input } from "antd";
 import { BsPencil, BsPlus } from "react-icons/bs";
 import { AiOutlineUnorderedList } from "react-icons/ai";
 import { IoMdClose } from "react-icons/io";
-import { FaPlus } from "react-icons/fa";
+import AddQuestion from "./AddQuestion";
 
 const Additional = () => {
   const [isAccordionOpen, setIsAccordionOpen] = useState(false);
@@ -247,31 +247,7 @@ const Additional = () => {
           />
         </div>
       </div>
-      <div style={{ position: "absolute", bottom: "5%", left: "5%" }}>
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: 16,
-            paddingTop: 20,
-            position: "sticky",
-          }}
-        >
-          <FaPlus style={{ fontSize: "24px" }} />
-          <p
-            style={{
-              fontSize: "15px",
-              lineHeight: "24px",
-              fontWeight: "600",
-              color: "#000",
-              display: "inline-block",
-              width: "139px",
-            }}
-          >
-            Add a question
-          </p>
-        </div>
-      </div>
+      <AddQuestion />
     </div>
   );
 };

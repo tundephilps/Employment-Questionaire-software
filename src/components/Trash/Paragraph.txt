@@ -1,6 +1,6 @@
 import { Input } from "antd";
 import { IoMdClose } from "react-icons/io";
-import { Select,  } from "antd";
+import { Select } from "antd";
 
 const handleChange = (value: string) => {
   console.log(`selected ${value}`);
@@ -111,6 +111,7 @@ const Paragraph = () => {
             placeholder="Type here"
           />
         </div>
+        {/* Delete */}
         <div
           style={{
             display: "flex",

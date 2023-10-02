@@ -27,6 +27,7 @@ const Question = () => {
           height: "93px",
         }}
       ></div>
+      {/* Question Starts */}
       <div
         style={{
           display: "flex",
@@ -79,7 +80,6 @@ const Question = () => {
           />
         </div>
         <div>
-          {" "}
           <div
             style={{
               position: "relative",

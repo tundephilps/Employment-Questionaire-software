@@ -1,10 +1,10 @@
 import React from "react";
 
-import { FaPlus } from "react-icons/fa";
 import { Checkbox } from "antd";
 import type { CheckboxChangeEvent } from "antd/es/checkbox";
 
 import { Switch, ConfigProvider } from "antd";
+import AddQuestion from "./AddQuestion";
 
 const onChange = (e: CheckboxChangeEvent) => {
   console.log(`checked = ${e.target.checked}`);
@@ -44,7 +44,8 @@ const Profile = () => {
             backgroundColor: "#fff",
             boxShadow: "3px 3px 14px rgba(190, 190, 190, 0.3)",
             width: "595px",
-            height: "451px",
+            height: "100%",
+            minHeight: "451px",
           }}
         >
           <div
@@ -132,12 +133,10 @@ const Profile = () => {
                 }}
               >
                 <div style={{ width: "139px" }}>
-                  <Checkbox  onChange={onChange}>
-                    Mandatory
-                  </Checkbox>
+                  <Checkbox onChange={onChange}>Mandatory</Checkbox>
                 </div>
                 <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-                  <Switch  />
+                  <Switch />
                   Show
                 </div>
               </div>
@@ -177,29 +176,8 @@ const Profile = () => {
                 </div>
               </div>
             </div>
-
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                gap: 16,
-                paddingTop: 20,
-              }}
-            >
-              <FaPlus style={{ fontSize: "24px" }} />
-              <p
-                style={{
-                  fontSize: "15px",
-                  lineHeight: "24px",
-                  fontWeight: "600",
-                  color: "#000",
-                  display: "inline-block",
-                  width: "139px",
-                }}
-              >
-                Add a question
-              </p>
-            </div>
+            {/* Add Question */}
+            <AddQuestion />
           </div>
         </div>
       </ConfigProvider>

@@ -1,6 +1,6 @@
 import { Input } from "antd";
-import { Select} from "antd";
-import {  BsPlus } from "react-icons/bs";
+import { Select } from "antd";
+import { BsPlus } from "react-icons/bs";
 import { AiOutlineUnorderedList } from "react-icons/ai";
 import { IoMdClose } from "react-icons/io";
 
@@ -204,7 +204,7 @@ const Multiple = () => {
             Save
           </div>
         </div>
-        {/* Question */}
+        {/* Max choice */}
         <div>
           <div
             style={{

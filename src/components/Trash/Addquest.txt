@@ -1,0 +1,144 @@
+import { Input, Select } from "antd";
+import { useState } from "react";
+import { FaPlus } from "react-icons/fa";
+
+const { Option } = Select;
+
+const AddParagraphQuestion = () => {
+  return (
+    <div>
+      {/* Render the component for "Paragraph" question */}
+      <div>
+        <div>Type: Paragraph</div>
+        <div>
+          <Input placeholder="Enter your paragraph question" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const AddShortAnswerQuestion = () => {
+  return (
+    <div>
+      {/* Render the component for "Short Answer" question */}
+      <div>
+        <div>Type: Short Answer</div>
+        <div>
+          <Input placeholder="Enter your short answer question" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const AddDropdownQuestion = () => {
+  return (
+    <div>
+      {/* Render the component for "Dropdown" question */}
+      <div>
+        <div>Type: Dropdown</div>
+        <div>
+          {/* Add the component for Dropdown question */}
+          {/* You can implement this component here */}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const AddMultipleChoiceQuestion = () => {
+  return (
+    <div>
+      {/* Render the component for "Multiple Choice" question */}
+      <div>
+        <div>Type: Multiple Choice</div>
+        <div>
+          {/* Add the component for Multiple Choice question */}
+          {/* You can implement this component here */}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const AddQuestion = () => {
+  const [selectedType, setSelectedType] = useState(""); // Track selected value
+
+  // Function to handle the "Add Question" button click
+  const addQuestion = () => {
+    // Implement logic to add the selected question based on selectedType
+  };
+
+  // Render different components based on the selected value
+  const renderQuestionComponent = () => {
+    switch (selectedType) {
+      case "Paragraph":
+        return <AddParagraphQuestion />;
+      case "Short answer":
+        return <AddShortAnswerQuestion />;
+      case "Dropdown":
+        return <AddDropdownQuestion />;
+      case "Multiple choice":
+        return <AddMultipleChoiceQuestion />;
+      default:
+        return null;
+    }
+  };
+
+  return (
+    <div>
+      <Select
+        style={{ width: 200, marginBottom: 16 }}
+        placeholder="Select a question type"
+        value={selectedType}
+        onChange={(value) => setSelectedType(value)}
+      >
+        <Option value="Paragraph">Paragraph</Option>
+        <Option value="Short answer">Short Answer</Option>
+        <Option value="Dropdown">Dropdown</Option>
+        <Option value="Multiple choice">Multiple Choice</Option>
+      </Select>
+
+      {/* Render the selected question component */}
+      {renderQuestionComponent()}
+
+      {/* Add Question button */}
+      <div
+        style={{
+          position: "absolute",
+          bottom: "1%",
+          left: "5%",
+          cursor: "pointer",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 16,
+            paddingTop: 20,
+            position: "sticky",
+          }}
+          onClick={addQuestion}
+        >
+          <FaPlus style={{ fontSize: "24px" }} />
+          <p
+            style={{
+              fontSize: "15px",
+              lineHeight: "24px",
+              fontWeight: "600",
+              color: "#000",
+              display: "inline-block",
+              width: "139px",
+            }}
+          >
+            Add a question
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default AddQuestion;

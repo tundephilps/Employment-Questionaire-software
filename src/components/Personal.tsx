@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { FaPlus } from "react-icons/fa";
 import { Checkbox } from "antd";
 import type { CheckboxChangeEvent } from "antd/es/checkbox";
 
 import { Switch } from "antd";
 import { Input } from "antd";
+import AddQuestion from "./AddQuestion";
 
 const onChange = (e: CheckboxChangeEvent) => {
   console.log(`checked = ${e.target.checked}`);
@@ -39,15 +39,6 @@ const Personal = () => {
     setSwitchState5(!switchState5);
   };
 
-  // const [switchStates, setSwitchStates] = useState([false, false, false]);
-
-  // // Function to handle switch change for a specific switch
-  // const handleSwitchChange = (index) => {
-  //   const updatedStates = [...switchStates];
-  //   updatedStates[index] = !updatedStates[index];
-  //   setSwitchStates(updatedStates);
-  // };
-
   const details: React.CSSProperties = {
     position: "relative",
     fontSize: "20px",
@@ -70,7 +61,8 @@ const Personal = () => {
           backgroundColor: "#fff",
           boxShadow: "3px 3px 14px rgba(190, 190, 190, 0.3)",
           width: "595px",
-          height: "981px",
+          height: "100%",
+          minHeight: "981px",
         }}
       >
         <div
@@ -394,28 +386,7 @@ const Personal = () => {
             </div>
           </div>
           {/* Add a Question */}
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: 16,
-              paddingTop: 40,
-            }}
-          >
-            <FaPlus style={{ fontSize: "24px" }} />
-            <p
-              style={{
-                fontSize: "15px",
-                lineHeight: "24px",
-                fontWeight: "600",
-                color: "#000",
-                display: "inline-block",
-                width: "139px",
-              }}
-            >
-              Add a question
-            </p>
-          </div>
+          <AddQuestion />
         </div>
       </div>
     </>

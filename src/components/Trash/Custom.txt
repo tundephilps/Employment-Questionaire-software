@@ -1,0 +1,27 @@
+import React, { useState } from "react";
+
+const Custom: React.FC = () => {
+  const [selectedValue, setSelectedValue] = useState<string>("");
+
+  const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    setSelectedValue(event.target.value);
+  };
+
+  return (
+    <div>
+      <select value={selectedValue} onChange={handleChange}>
+        <option value="">Select an option</option>
+        <option value="man">Man</option>
+        <option value="woman">Woman</option>
+        {/* Add more options as needed */}
+      </select>
+      {selectedValue === "man" ? (
+        <input type="text" placeholder="Enter text" />
+      ) : selectedValue === "woman" ? (
+        <textarea placeholder="Enter text" />
+      ) : null}
+    </div>
+  );
+};
+
+export default Custom;
