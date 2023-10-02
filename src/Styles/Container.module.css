@@ -1,0 +1,1226 @@
+.applicationTemplateChild {
+  position: absolute;
+  top: 2442px;
+  left: 185px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 3px 3px 14px rgba(190, 190, 190, 0.3);
+  width: 595px;
+  height: 965px;
+}
+.groupChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 5px;
+  background-color: #087b2f;
+  width: 59px;
+  height: 35px;
+}
+.save {
+  position: absolute;
+  top: 7px;
+  left: 11px;
+  font-weight: 600;
+}
+.rectangleParent {
+  position: absolute;
+  top: 3106px;
+  left: 665px;
+  width: 59px;
+  height: 35px;
+  font-size: 14px;
+  color: #f4fbf7;
+}
+.applicationTemplateItem {
+  position: absolute;
+  top: 3112px;
+  left: 215px;
+  width: 33.79px;
+  height: 33.79px;
+}
+.value {
+  position: absolute;
+  width: calc(100% - 1373px);
+  top: 3117px;
+  left: 260px;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  font-weight: 600;
+  color: #a80000;
+  display: inline-block;
+}
+.iconsParagraphUnorderedl {
+  position: absolute;
+  top: 3013px;
+  left: 220px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.question {
+  position: absolute;
+  top: 2818px;
+  left: 215px;
+  line-height: 114%;
+  font-weight: 600;
+  display: inline-block;
+  width: 94px;
+  height: 30px;
+}
+.choice {
+  position: absolute;
+  top: 2954px;
+  left: 251px;
+  line-height: 114%;
+  font-weight: 500;
+  display: inline-block;
+  width: 94px;
+  height: 30px;
+}
+.applicationTemplateInner {
+  position: absolute;
+  top: 2856px;
+  left: 215px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 509px;
+  height: 68px;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 2991px;
+  left: 251px;
+  border-radius: 5px;
+  border: 1px solid #a0a0a0;
+  box-sizing: border-box;
+  width: 441px;
+  height: 68px;
+}
+.typeHere {
+  position: absolute;
+  top: 2879px;
+  left: 241px;
+  font-size: 14px;
+  line-height: 159.5%;
+  font-weight: 500;
+  color: #979797;
+  display: inline-block;
+  width: 176px;
+}
+.typeHere1 {
+  position: absolute;
+  top: 3014px;
+  left: 269px;
+  font-size: 14px;
+  line-height: 159.5%;
+  font-weight: 500;
+  color: #979797;
+  display: inline-block;
+  width: 176px;
+}
+.applicationTemplateChild1 {
+  position: absolute;
+  top: 3018px;
+  left: 707.99px;
+  width: 13.02px;
+  height: 13.12px;
+}
+.applicationTemplateChild2 {
+  position: absolute;
+  top: 1886px;
+  left: 185px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 3px 3px 14px rgba(190, 190, 190, 0.3);
+  width: 595px;
+  height: 451px;
+}
+.value1 {
+  position: absolute;
+  width: calc(100% - 1373px);
+  top: 2286px;
+  left: 259.97px;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+}
+.applicationTemplateChild3 {
+  position: absolute;
+  top: 2285px;
+  left: 215.98px;
+  width: 23.82px;
+  height: 24px;
+}
+.applicationTemplateChild4 {
+  position: absolute;
+  top: 1883px;
+  left: 185px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: #d0f7fa;
+  width: 595px;
+  height: 93px;
+}
+.applicationTemplateChild5 {
+  position: absolute;
+  top: 2431px;
+  left: 185px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: #d0f7fa;
+  width: 595px;
+  height: 93px;
+}
+.toggle10 {
+  position: absolute;
+  top: -0.5px;
+  left: -0.5px;
+  border-radius: 32px;
+  background-color: #087b2f;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  width: 50px;
+  height: 25px;
+}
+.dot9 {
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  border-radius: 32px;
+  background-color: #fff;
+  width: 18px;
+  height: 18px;
+}
+.toggleOff {
+  position: relative;
+  width: 49px;
+  height: 24px;
+}
+.on {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  width: 303px;
+  flex-shrink: 0;
+}
+.toggle9 {
+  position: absolute;
+  top: 2123px;
+  left: 626px;
+  width: 71px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 16px;
+  color: #666;
+  font-family: "Noto Sans";
+}
+.toggle12 {
+  position: absolute;
+  top: -0.5px;
+  left: -0.5px;
+  border-radius: 32px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  width: 50px;
+  height: 25px;
+}
+.dot10 {
+  position: absolute;
+  top: 2.5px;
+  left: 27.5px;
+  border-radius: 32px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  width: 19px;
+  height: 19px;
+}
+.toggle11 {
+  position: absolute;
+  top: 2038px;
+  left: 632px;
+  width: 83px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 16px;
+  color: #666;
+  font-family: "Noto Sans";
+}
+.toggle13 {
+  position: absolute;
+  top: 2203px;
+  left: 632px;
+  width: 83px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 16px;
+  color: #666;
+  font-family: "Noto Sans";
+}
+.lineDiv {
+  position: absolute;
+  top: 2091.5px;
+  left: 214.5px;
+  border-top: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  width: 518px;
+  height: 1px;
+}
+.applicationTemplateChild6 {
+  position: absolute;
+  top: 2175.5px;
+  left: 214.5px;
+  border-top: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  width: 518px;
+  height: 1px;
+}
+.education {
+  position: absolute;
+  top: 2037px;
+  left: 215px;
+  line-height: 114%;
+  font-weight: 600;
+  display: inline-block;
+  width: 202px;
+  height: 30px;
+}
+.applicationTemplateChild7 {
+  position: absolute;
+  top: 2683.5px;
+  left: 214.5px;
+  border-top: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  width: 518px;
+  height: 1px;
+}
+.applicationTemplateChild8 {
+  position: absolute;
+  top: 3197.5px;
+  left: 214.5px;
+  border-top: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  width: 518px;
+  height: 1px;
+}
+.pleaseTellMe1 {
+  position: absolute;
+  top: 2603px;
+  left: 215px;
+  line-height: 114%;
+  font-weight: 600;
+  display: inline-block;
+  width: 439px;
+  height: 30px;
+}
+.profile {
+  position: absolute;
+  top: 1917px;
+  left: 217px;
+  font-size: 25px;
+  line-height: 114%;
+  font-weight: 600;
+  display: inline-block;
+  width: 287px;
+  height: 30px;
+}
+.additionalQuestions {
+  position: absolute;
+  top: 2466px;
+  left: 215px;
+  font-size: 25px;
+  line-height: 114%;
+  font-weight: 600;
+  display: inline-block;
+  width: 381px;
+  height: 30px;
+}
+.experience {
+  position: absolute;
+  top: 2121px;
+  left: 215px;
+  line-height: 114%;
+  font-weight: 600;
+  display: inline-block;
+  width: 191px;
+  height: 30px;
+}
+.resume {
+  position: absolute;
+  top: 2203px;
+  left: 215px;
+  line-height: 114%;
+  font-weight: 600;
+  display: inline-block;
+  width: 191px;
+  height: 30px;
+}
+.value2 {
+  position: absolute;
+  width: calc(100% - 1373px);
+  top: 2124px;
+  left: 517px;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  display: inline-block;
+}
+.value3 {
+  position: absolute;
+  width: calc(100% - 1373px);
+  top: 2206px;
+  left: 517px;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  display: inline-block;
+}
+.value4 {
+  position: absolute;
+  width: calc(100% - 1373px);
+  top: 2038px;
+  left: 517px;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  display: inline-block;
+}
+.groupItem {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 4px;
+  background-color: #087b2f;
+  width: 18px;
+  height: 18px;
+}
+.groupInner {
+  position: absolute;
+  top: 5.5px;
+  left: 3.5px;
+  width: 11px;
+  height: 8.46px;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 2125px;
+  left: 491px;
+  width: 18px;
+  height: 18px;
+}
+.applicationTemplateChild9 {
+  position: absolute;
+  top: 2209px;
+  left: 491px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #d4d9e4;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+}
+.applicationTemplateChild10 {
+  position: absolute;
+  top: 2041px;
+  left: 491px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #d4d9e4;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+}
+.paragraph {
+  position: absolute;
+  top: 2572px;
+  left: 215px;
+  font-size: 14px;
+  line-height: 159.5%;
+  font-weight: 500;
+  color: #979797;
+  display: inline-block;
+  width: 87px;
+}
+.pleaseSelectThe1 {
+  position: absolute;
+  top: 2735px;
+  left: 215px;
+  line-height: 114%;
+  font-weight: 600;
+  display: inline-block;
+  width: 439px;
+  height: 53px;
+}
+.dropdown {
+  position: absolute;
+  top: 2704px;
+  left: 215px;
+  font-size: 14px;
+  line-height: 159.5%;
+  font-weight: 500;
+  color: #979797;
+  display: inline-block;
+  width: 87px;
+}
+.image156Icon1 {
+  position: absolute;
+  top: 2605px;
+  left: 706px;
+  width: 18px;
+  height: 17px;
+  object-fit: cover;
+}
+.haveYouEver1 {
+  position: absolute;
+  top: 3249px;
+  left: 217px;
+  line-height: 114%;
+  font-weight: 600;
+  display: inline-block;
+  width: 439px;
+  height: 49px;
+}
+.yesnoQuestions {
+  position: absolute;
+  top: 3218px;
+  left: 217px;
+  font-size: 14px;
+  line-height: 159.5%;
+  font-weight: 500;
+  color: #979797;
+  display: inline-block;
+  width: 138px;
+}
+.image240Icon1 {
+  position: absolute;
+  top: 3251px;
+  left: 708px;
+  width: 18px;
+  height: 17px;
+  object-fit: cover;
+}
+.image239Icon1 {
+  position: absolute;
+  top: 2742px;
+  left: 706px;
+  width: 18px;
+  height: 17px;
+  object-fit: cover;
+}
+.applicationTemplateChild11 {
+  position: absolute;
+  top: 123px;
+  left: -123px;
+  border-radius: 9px;
+  background-color: #fff;
+  box-shadow: 0px 1px 18px rgba(0, 0, 0, 0.12);
+  width: 1651px;
+  height: 129px;
+}
+.groupChild1 {
+  position: absolute;
+  top: 43px;
+  left: 280px;
+  width: 21px;
+  height: 42px;
+}
+.groupChild2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #00635b;
+  width: 282.46px;
+  height: 130px;
+}
+.vectorParent {
+  position: absolute;
+  top: 123px;
+  left: 458px;
+  width: 301px;
+  height: 130px;
+}
+.applicationTemplateChild12 {
+  position: absolute;
+  top: 148px;
+  left: 1085.5px;
+  width: 1px;
+  height: 78px;
+}
+.programDetails {
+  position: absolute;
+  top: 176px;
+  left: 226px;
+  font-weight: 500;
+  font-family: Inter;
+  display: inline-block;
+  width: 154px;
+}
+.applicationForm {
+  position: absolute;
+  top: 175px;
+  left: 512px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #fff;
+  display: inline-block;
+  width: 163px;
+}
+.workflow {
+  position: absolute;
+  top: 175px;
+  left: 863px;
+  font-weight: 500;
+  font-family: Inter;
+  display: inline-block;
+  width: 93px;
+}
+.preview {
+  position: absolute;
+  top: 175px;
+  left: 1175px;
+  font-weight: 500;
+  font-family: Inter;
+  display: inline-block;
+  width: 77px;
+}
+.value5 {
+  position: absolute;
+  width: calc(100% - 1373px);
+  top: 3351px;
+  left: 260.97px;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+}
+.applicationTemplateChild13 {
+  position: absolute;
+  top: 3350px;
+  left: 216.98px;
+  width: 23.82px;
+  height: 24px;
+}
+.groupChild3 {
+  position: absolute;
+  top: 0.14px;
+  left: 117.86px;
+  background-color: #fff;
+  box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.05);
+  width: 3100.17px;
+  height: 113.79px;
+  transform: rotate(90.08deg);
+  transform-origin: 0 0;
+}
+.groupChild4 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #000;
+  width: 22px;
+  height: 2.92px;
+}
+.groupChild5 {
+  position: absolute;
+  top: 7.8px;
+  left: 0px;
+  background-color: #000;
+  width: 22px;
+  height: 2.92px;
+}
+.groupChild6 {
+  position: absolute;
+  top: 15.59px;
+  left: 0px;
+  background-color: #000;
+  width: 22px;
+  height: 2.92px;
+}
+.groupDiv {
+  position: absolute;
+  top: 50.31px;
+  left: 49.15px;
+  width: 22px;
+  height: 18.52px;
+}
+.image295Icon1 {
+  position: absolute;
+  top: 163.37px;
+  left: 44.15px;
+  width: 36px;
+  height: 35.09px;
+  object-fit: cover;
+}
+.image298Icon1 {
+  position: absolute;
+  top: 244.26px;
+  left: 44.15px;
+  width: 33px;
+  height: 32.16px;
+  object-fit: cover;
+}
+.ellipseDiv {
+  position: absolute;
+  top: 1213.02px;
+  left: 37.04px;
+  border-radius: 50%;
+  background-color: #1d4ed8;
+  width: 47px;
+  height: 45.81px;
+}
+.nt {
+  position: absolute;
+  top: 1224.71px;
+  left: 46.04px;
+  font-weight: 600;
+  display: inline-block;
+  width: 30px;
+  height: 19.49px;
+}
+.rectangleContainer {
+  position: absolute;
+  top: -1px;
+  left: -2.38px;
+  width: 117.86px;
+  height: 3100.31px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}
+.applicationTemplateChild14 {
+  position: absolute;
+  top: 841px;
+  left: 185px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 3px 3px 14px rgba(190, 190, 190, 0.3);
+  width: 595px;
+  height: 981px;
+}
+.applicationTemplateChild15 {
+  position: absolute;
+  top: 840px;
+  left: 186px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: #d0f7fa;
+  width: 595px;
+  height: 93px;
+}
+.personalInformation {
+  position: absolute;
+  top: 874px;
+  left: 215px;
+  font-size: 25px;
+  line-height: 114%;
+  font-weight: 600;
+  display: inline-block;
+  width: 287px;
+  height: 30px;
+}
+.search1 {
+  position: absolute;
+  top: 1121px;
+  left: 226px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.value6 {
+  position: absolute;
+  width: calc(100% - 1373px);
+  top: 1746px;
+  left: 260.97px;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+}
+.applicationTemplateChild16 {
+  position: absolute;
+  top: 1745px;
+  left: 216.98px;
+  width: 23.82px;
+  height: 24px;
+}
+.toggle15 {
+  position: absolute;
+  top: 1209px;
+  left: 632px;
+  width: 83px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 16px;
+  color: #666;
+  font-family: "Noto Sans";
+}
+.applicationTemplateChild17 {
+  position: absolute;
+  top: 1025.5px;
+  left: 214.5px;
+  border-top: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  width: 518px;
+  height: 1px;
+}
+.applicationTemplateChild18 {
+  position: absolute;
+  top: 1181.5px;
+  left: 214.5px;
+  border-top: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  width: 518px;
+  height: 1px;
+}
+.firstName {
+  position: absolute;
+  top: 971px;
+  left: 215px;
+  line-height: 114%;
+  font-weight: 600;
+  display: inline-block;
+  width: 202px;
+  height: 30px;
+}
+.applicationTemplateChild19 {
+  position: absolute;
+  top: 1103.5px;
+  left: 214.5px;
+  border-top: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  width: 518px;
+  height: 1px;
+}
+.lastName {
+  position: absolute;
+  top: 1049px;
+  left: 215px;
+  line-height: 114%;
+  font-weight: 600;
+  display: inline-block;
+  width: 202px;
+  height: 30px;
+}
+.emai {
+  position: absolute;
+  top: 1127px;
+  left: 215px;
+  line-height: 114%;
+  font-weight: 600;
+  display: inline-block;
+  width: 191px;
+  height: 30px;
+}
+.phone {
+  font-weight: 600;
+}
+.withoutDialCode {
+  font-size: 15px;
+}
+.phoneWithoutDialContainer {
+  position: absolute;
+  top: 1209px;
+  left: 215px;
+  line-height: 114%;
+  display: inline-block;
+  width: 230px;
+  height: 30px;
+}
+.value7 {
+  position: absolute;
+  width: calc(100% - 1373px);
+  top: 1212px;
+  left: 517px;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  display: inline-block;
+}
+.applicationTemplateChild20 {
+  position: absolute;
+  top: 1215px;
+  left: 491px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #d4d9e4;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+}
+.toggle17 {
+  position: absolute;
+  top: 1294px;
+  left: 632px;
+  width: 83px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 16px;
+  color: #666;
+  font-family: "Noto Sans";
+}
+.applicationTemplateChild21 {
+  position: absolute;
+  top: 1266.5px;
+  left: 214.5px;
+  border-top: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  width: 518px;
+  height: 1px;
+}
+.nationality {
+  position: absolute;
+  top: 1294px;
+  left: 215px;
+  line-height: 114%;
+  font-weight: 600;
+  display: inline-block;
+  width: 230px;
+  height: 30px;
+}
+.value8 {
+  position: absolute;
+  width: calc(100% - 1373px);
+  top: 1297px;
+  left: 517px;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  display: inline-block;
+}
+.applicationTemplateChild22 {
+  position: absolute;
+  top: 1300px;
+  left: 491px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #d4d9e4;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+}
+.toggle19 {
+  position: absolute;
+  top: 1379px;
+  left: 632px;
+  width: 83px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 16px;
+  color: #666;
+  font-family: "Noto Sans";
+}
+.applicationTemplateChild23 {
+  position: absolute;
+  top: 1351.5px;
+  left: 214.5px;
+  border-top: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  width: 518px;
+  height: 1px;
+}
+.currentResidence {
+  position: absolute;
+  top: 1379px;
+  left: 215px;
+  line-height: 114%;
+  font-weight: 600;
+  display: inline-block;
+  width: 230px;
+  height: 30px;
+}
+.value9 {
+  position: absolute;
+  width: calc(100% - 1373px);
+  top: 1382px;
+  left: 517px;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  display: inline-block;
+}
+.applicationTemplateChild24 {
+  position: absolute;
+  top: 1385px;
+  left: 491px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #d4d9e4;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+}
+.toggle21 {
+  position: absolute;
+  top: 1470px;
+  left: 632px;
+  width: 83px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 16px;
+  color: #666;
+  font-family: "Noto Sans";
+}
+.applicationTemplateChild25 {
+  position: absolute;
+  top: 1442.5px;
+  left: 214.5px;
+  border-top: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  width: 518px;
+  height: 1px;
+}
+.idNumber {
+  position: absolute;
+  top: 1470px;
+  left: 215px;
+  line-height: 114%;
+  font-weight: 600;
+  display: inline-block;
+  width: 230px;
+  height: 30px;
+}
+.value10 {
+  position: absolute;
+  width: calc(100% - 1373px);
+  top: 1473px;
+  left: 517px;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  display: inline-block;
+}
+.applicationTemplateChild26 {
+  position: absolute;
+  top: 1476px;
+  left: 491px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #d4d9e4;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+}
+.toggle23 {
+  position: absolute;
+  top: 1557px;
+  left: 632px;
+  width: 83px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 16px;
+  color: #666;
+  font-family: "Noto Sans";
+}
+.applicationTemplateChild27 {
+  position: absolute;
+  top: 1529.5px;
+  left: 214.5px;
+  border-top: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  width: 518px;
+  height: 1px;
+}
+.dateOfBirth1 {
+  position: absolute;
+  top: 1557px;
+  left: 215px;
+  line-height: 114%;
+  font-weight: 600;
+  display: inline-block;
+  width: 230px;
+  height: 30px;
+}
+.value11 {
+  position: absolute;
+  width: calc(100% - 1373px);
+  top: 1560px;
+  left: 517px;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  display: inline-block;
+}
+.applicationTemplateChild28 {
+  position: absolute;
+  top: 1563px;
+  left: 491px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #d4d9e4;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+}
+.toggle25 {
+  position: absolute;
+  top: 1651px;
+  left: 632px;
+  width: 83px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 16px;
+  color: #666;
+  font-family: "Noto Sans";
+}
+.applicationTemplateChild29 {
+  position: absolute;
+  top: 1623.5px;
+  left: 214.5px;
+  border-top: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  width: 518px;
+  height: 1px;
+}
+.gender {
+  position: absolute;
+  top: 1651px;
+  left: 215px;
+  line-height: 114%;
+  font-weight: 600;
+  display: inline-block;
+  width: 230px;
+  height: 30px;
+}
+.value12 {
+  position: absolute;
+  width: calc(100% - 1373px);
+  top: 1654px;
+  left: 517px;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  display: inline-block;
+}
+.applicationTemplateChild30 {
+  position: absolute;
+  top: 1657px;
+  left: 491px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #d4d9e4;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+}
+.groupChild7 {
+  position: absolute;
+  top: 2.5px;
+  left: 0px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 3px 3px 14px rgba(190, 190, 190, 0.3);
+  width: 595px;
+  height: 405.5px;
+}
+.groupChild8 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: #d0f7fa;
+  width: 595px;
+  height: 77.44px;
+}
+.uploadCoverImage2 {
+  position: absolute;
+  top: 28.31px;
+  left: 32px;
+  line-height: 114%;
+  font-weight: 600;
+  display: inline-block;
+  width: 287px;
+  height: 24.98px;
+}
+.rectangleParent1 {
+  position: absolute;
+  top: 365px;
+  left: 185px;
+  width: 595px;
+  height: 408px;
+  font-size: 25px;
+}
+.groupChild9 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 9px rgba(190, 190, 190, 0.13);
+  border: 1px dashed #000;
+  box-sizing: border-box;
+  width: 512px;
+  height: 210px;
+}
+.applicationTemplateInner1 {
+  position: absolute;
+  top: 506px;
+  left: 225px;
+  width: 512px;
+  height: 210px;
+}
+.uploadCoverImage3 {
+  position: absolute;
+  top: 603px;
+  left: 398px;
+  font-size: 14px;
+  line-height: 159.5%;
+  font-weight: 600;
+}
+.image308Icon1 {
+  position: absolute;
+  top: 562px;
+  left: 453px;
+  width: 33px;
+  height: 33px;
+  object-fit: cover;
+}
+.ratioIsRecommended1 {
+  position: absolute;
+  top: 631px;
+  left: 302px;
+  font-size: 14px;
+  line-height: 159.5%;
+  font-weight: 500;
+  color: #979797;
+}
+.applicationTemplate {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 4143px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: Poppins;
+}

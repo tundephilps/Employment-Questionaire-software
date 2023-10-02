@@ -1,0 +1,229 @@
+ const applicationTemplateChild14Styles: React.CSSProperties = {
+    position: "absolute",
+    top: "841px",
+    left: "185px",
+    borderRadius: "20px",
+    backgroundColor: "#fff",
+    boxShadow: "3px 3px 14px rgba(190, 190, 190, 0.3)",
+    width: "595px",
+    height: "981px",
+  };
+
+  const applicationTemplateChild15Styles: React.CSSProperties = {
+    position: "absolute",
+    top: "840px",
+    left: "186px",
+    borderRadius: "20px 20px 0px 0px",
+    backgroundColor: "#d0f7fa",
+    width: "595px",
+    height: "93px",
+  };
+
+  const personalInformationStyles: React.CSSProperties = {
+    position: "absolute",
+    top: "874px",
+    left: "215px",
+    fontSize: "25px",
+    lineHeight: "114%",
+    fontWeight: 600,
+    display: "inline-block",
+    width: "287px",
+    height: "30px",
+  };
+
+  const search1Styles: React.CSSProperties = {
+    position: "absolute",
+    top: "1121px",
+    left: "226px",
+    width: "24px",
+    height: "24px",
+    overflow: "hidden",
+  };
+
+  const value6Styles: React.CSSProperties = {
+    position: "absolute",
+    width: "calc(100% - 1373px)",
+    top: "1746px",
+    left: "260.97px",
+    fontSize: "15px",
+    letterSpacing: "-0.01em",
+    lineHeight: "24px",
+    fontWeight: 600,
+    display: "inline-block",
+  };
+
+  const applicationTemplateChild16Styles: React.CSSProperties = {
+    position: "absolute",
+    top: "1745px",
+    left: "216.98px",
+    width: "23.82px",
+    height: "24px",
+  };
+
+  const toggle15Styles: React.CSSProperties = {
+    position: "absolute",
+    top: "1209px",
+    left: "632px",
+    width: "83px",
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "flex-start",
+    justifyContent: "flex-start",
+    gap: "16px",
+    fontSize: "16px",
+    color: "#666",
+    fontFamily: "Noto Sans",
+  };
+
+  const toggleOffStyles: React.CSSProperties = {
+    position: "relative",
+    width: "49px",
+    height: "24px",
+  };
+
+  const dot10Styles: React.CSSProperties = {
+    position: "absolute",
+    top: "2.5px",
+    left: "27.5px",
+    borderRadius: "32px",
+    backgroundColor: "#f4f4f4",
+    border: "1px solid #ccc",
+    boxSizing: "border-box",
+    width: "19px",
+    height: "19px",
+  };
+
+  const onStyles: React.CSSProperties = {
+    position: "relative",
+    lineHeight: "24px",
+    display: "inline-block",
+    width: "303px",
+    flexShrink: 0,
+  };
+
+  const Borderline: React.CSSProperties = {
+    borderTop: "1px solid #c4c4c4",
+    boxSizing: "border-box",
+    width: "518px",
+    height: "1px",
+  };
+
+  const applicationTemplateChild18Styles: React.CSSProperties = {
+    position: "absolute",
+    top: "1181.5px",
+    left: "214.5px",
+    borderTop: "1px solid #c4c4c4",
+    boxSizing: "border-box",
+    width: "518px",
+    height: "1px",
+  };
+
+  const firstNameStyles: React.CSSProperties = {
+    position: "absolute",
+    top: "971px",
+    left: "215px",
+    lineHeight: "114%",
+    fontWeight: 600,
+    display: "inline-block",
+    width: "202px",
+    height: "30px",
+  };
+
+  const applicationTemplateChild19Styles: React.CSSProperties = {
+    position: "absolute",
+    top: "1103.5px",
+    left: "214.5px",
+    borderTop: "1px solid #c4c4c4",
+    boxSizing: "border-box",
+    width: "518px",
+    height: "1px",
+  };
+
+  const lastNameStyles: React.CSSProperties = {
+    position: "absolute",
+    top: "1049px",
+    left: "215px",
+    lineHeight: "114%",
+    fontWeight: 600,
+    display: "inline-block",
+    width: "202px",
+    height: "30px",
+  };
+
+  const emailStyles: React.CSSProperties = {
+    position: "absolute",
+    top: "1127px",
+    left: "215px",
+    lineHeight: "114%",
+    fontWeight: 600,
+    display: "inline-block",
+    width: "191px",
+    height: "30px",
+  };
+
+  const phoneWithoutDialContainerStyles: React.CSSProperties = {
+    position: "absolute",
+    top: "1209px",
+    left: "215px",
+    lineHeight: "114%",
+    display: "inline-block",
+    width: "230px",
+    height: "30px",
+  };
+
+  const phoneStyles: React.CSSProperties = {
+    fontWeight: 600,
+  };
+
+  const withoutDialCodeStyles: React.CSSProperties = {
+    fontSize: "15px",
+  };
+
+  const value7Styles: React.CSSProperties = {
+    position: "absolute",
+    width: "calc(100% - 1373px)",
+    top: "1212px",
+    left: "517px",
+    fontSize: "15px",
+    letterSpacing: "-0.01em",
+    lineHeight: "24px",
+    display: "inline-block",
+  };
+
+  const applicationTemplateChild20Styles: React.CSSProperties = {
+    position: "absolute",
+    top: "1215px",
+    left: "491px",
+    borderRadius: "4px",
+    backgroundColor: "#fff",
+    border: "1px solid #d4d9e4",
+    boxSizing: "border-box",
+    width: "18px",
+    height: "18px",
+  };
+  const toggle17Styles: React.CSSProperties = {
+    position: "absolute",
+    top: "1294px",
+    left: "632px",
+    width: "83px",
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "flex-start",
+    justifyContent: "flex-start",
+    gap: "16px",
+    fontSize: "16px",
+    color: "#666",
+    fontFamily: "Noto Sans",
+  };
+
+  const toggle12Styles: React.CSSProperties = {
+    position: "absolute",
+    top: "-0.5px",
+    left: "-0.5px",
+    borderRadius: "32px",
+    backgroundColor: "#fff",
+    border: "1px solid #ccc",
+    boxSizing: "border-box",
+    width: "50px",
+    height: "25px",
+  };
