@@ -42,11 +42,11 @@ function App() {
         <Additional />
         {/* <Paragraph /> */}
         {/* <Question /> */}
-        <Multiple />
+        {/* <Multiple />
         <Dropdown />
         <YesNo />
         <Video />
-        <QuestionForm />
+        <QuestionForm /> */}
       </div>
     </div>
   );
