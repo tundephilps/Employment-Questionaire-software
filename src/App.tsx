@@ -11,7 +11,6 @@ import Multiple from "./components/Questions/Multiple";
 import Dropdown from "./components/Questions/Dropdown";
 import YesNo from "./components/Questions/YesNo";
 import Video from "./components/Questions/Video";
-import QuestionForm from "./components/QuestionForm";
 //const { Header, Footer, Sider, Content } = Layout;
 
 function App() {
