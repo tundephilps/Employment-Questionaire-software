@@ -16,32 +16,47 @@ const Selector: React.FC = () => {
   };
 
   return (
-    <div>
-      <Select
-        style={{
-          width: "100%",
-          height: "68px",
-          boxSizing: "border-box",
-          border: "1px solid #000",
-          position: "relative",
-          borderRadius: "5px",
-        }}
-        value={selectedValue}
-        onChange={handleChange}
-      >
-        <Option value="Paragraph">Paragraph</Option>
-        <Option value="Short answer">Short answer</Option>
+    <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
+      <div>
+        <p
+          style={{
+            position: "relative",
+            fontSize: "20px",
+            fontWeight: "600",
+            color: "black",
+            textAlign: "left",
+            display: "inline-block",
+            width: "94px",
+          }}
+        >
+          Type
+        </p>
+        <Select
+          style={{
+            width: "100%",
+            height: "68px",
+            boxSizing: "border-box",
+            border: "1px solid #000",
+            position: "relative",
+            borderRadius: "5px",
+          }}
+          value={selectedValue}
+          onChange={handleChange}
+        >
+          <Option value="Paragraph">Paragraph</Option>
+          <Option value="Short answer">Short answer</Option>
 
-        <Option value="Yes/No">Yes/No</Option>
-        <Option value="Dropdown">Dropdown</Option>
-        <Option value="Multtple choice">Multtple choice</Option>
+          <Option value="Yes/No">Yes/No</Option>
+          <Option value="Dropdown">Dropdown</Option>
+          <Option value="Multtple choice">Multtple choice</Option>
 
-        <Option value="Number">Number</Option>
-        <Option value="File upload">File upload</Option>
+          <Option value="Number">Number</Option>
+          <Option value="File upload">File upload</Option>
 
-        <Option value="Video question">Video question</Option>
-        {/* Add more options as needed */}
-      </Select>
+          <Option value="Video question">Video question</Option>
+          {/* Add more options as needed */}
+        </Select>
+      </div>
       {selectedValue === "Paragraph" ? (
         <ParagraphSelect />
       ) : selectedValue === "Short answer" ? (

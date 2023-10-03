@@ -4,7 +4,7 @@ import TextArea from "antd/es/input/TextArea";
 const VideoSelector = () => {
   return (
     <>
-      <div>
+      <div style={{ paddingTop: "1px" }}>
         <div
           style={{
             position: "relative",
@@ -34,13 +34,11 @@ const VideoSelector = () => {
         />
       </div>
       {/* Text Area */}
-      <br />
-      <br />
+
       <div>
         <TextArea rows={4} />
       </div>
-      <br />
-      <br />
+
       {/* Duration */}
       <div style={{ display: "flex", height: "68px", gap: 12 }}>
         <Input placeholder="Max duration in video" />

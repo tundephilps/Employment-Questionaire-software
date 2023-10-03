@@ -45,8 +45,8 @@ const MultipleChoice: React.FC = () => {
             display: "flex",
             alignItems: "center",
             flexDirection: "row",
-            gap: 12,
-            width: "509px",
+            gap: 8,
+            width: "80%",
             paddingTop: 24,
           }}
         >
@@ -63,7 +63,7 @@ const MultipleChoice: React.FC = () => {
                 color: "black",
                 textAlign: "left",
                 display: "inline-block",
-                minWidth: "300px",
+                width: "420px",
                 height: "30px",
               }}
             >

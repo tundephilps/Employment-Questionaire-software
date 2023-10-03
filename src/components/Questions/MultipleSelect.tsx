@@ -7,7 +7,7 @@ import MultipleChoice from "./MultipleChoice";
 
 const MultipleSelect = () => {
   return (
-    <div>
+    <div style={{ paddingTop: "24px" }}>
       {/* Question */}
       <div>
         <div
@@ -38,56 +38,45 @@ const MultipleSelect = () => {
           placeholder="Type here"
         />
       </div>
-      {/* Choice */}
-      {/* <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          flexDirection: "row",
-          gap: 12,
-          width: "509px",
-          paddingTop: 24,
-        }}
-      >
-        <div>
-          <AiOutlineUnorderedList style={{ marginTop: 24 }} />
-        </div>
-        <div>
-          <div
-            style={{
-              position: "relative",
-              fontSize: "20px",
-              lineHeight: "114%",
-              fontWeight: "600",
-              color: "black",
-              textAlign: "left",
-              display: "inline-block",
-              minWidth: "300px",
-              height: "30px",
-            }}
-          >
-            Choice
-          </div>
-          <Input
-            style={{
-              height: "68px",
-              boxSizing: "border-box",
-              border: "1px solid #000",
-              position: "relative",
-              width: "100%",
-              borderRadius: "5px",
-            }}
-            placeholder="Type here"
-          />
-        </div>
-        <div>
-          <BsPlus style={{ marginTop: 24 }} />
-        </div>
-      </div> */}
-      <MultipleChoice />
+      <div>
+        <MultipleChoice />
+      </div>
       {/* Enable */}
-      <div style={{ width: "100%" }}>
+      <div style={{ width: "100%", padding: 20 }}>
         <Checkbox>Enable "Other" option</Checkbox>
+      </div>
+
+      {/* Max choice */}
+      <div>
+        <div
+          style={{
+            position: "relative",
+            fontSize: "20px",
+            lineHeight: "114%",
+            fontWeight: "600",
+            color: "black",
+            textAlign: "left",
+            display: "inline-block",
+            width: "100%",
+            height: "30px",
+          }}
+        >
+          Max choice allowed
+        </div>
+        <InputNumber
+          min={1}
+          max={10}
+          style={{
+            width: "100%",
+            height: "68px",
+            boxSizing: "border-box",
+            border: "1px solid #000",
+            position: "relative",
+
+            borderRadius: "5px",
+          }}
+          placeholder="Enter number of choice allowed here"
+        />
       </div>
       {/* Delete */}
       <div
@@ -126,38 +115,6 @@ const MultipleSelect = () => {
         >
           Save
         </div>
-      </div>
-      {/* Max choice */}
-      <div>
-        <div
-          style={{
-            position: "relative",
-            fontSize: "20px",
-            lineHeight: "114%",
-            fontWeight: "600",
-            color: "black",
-            textAlign: "left",
-            display: "inline-block",
-            width: "100%",
-            height: "30px",
-          }}
-        >
-          Max choice allowed
-        </div>
-        <InputNumber
-          min={1}
-          max={10}
-          style={{
-            width: "100%",
-            height: "68px",
-            boxSizing: "border-box",
-            border: "1px solid #000",
-            position: "relative",
-
-            borderRadius: "5px",
-          }}
-          placeholder="Enter number of choice allowed here"
-        />
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ import MultipleChoice from "./MultipleChoice";
 
 const DropdownSelect = () => {
   return (
-    <div>
+    <div style={{ paddingTop: "24px" }}>
       {/* Question */}
       <div>
         <div
@@ -42,7 +42,7 @@ const DropdownSelect = () => {
 
       <MultipleChoice />
       {/* Enable */}
-      <div style={{ width: "100%" }}>
+      <div style={{ width: "100%", paddingTop: 24 }}>
         <Checkbox>Enable "Other" option</Checkbox>
       </div>
       {/* Delete */}
@@ -82,36 +82,6 @@ const DropdownSelect = () => {
         >
           Save
         </div>
-      </div>
-      {/* Question */}
-      <div>
-        <div
-          style={{
-            position: "relative",
-            fontSize: "20px",
-            lineHeight: "114%",
-            fontWeight: "600",
-            color: "black",
-            textAlign: "left",
-            display: "inline-block",
-            width: "100%",
-            height: "30px",
-          }}
-        >
-          Max choice allowed
-        </div>
-        <Input
-          style={{
-            width: "100%",
-            height: "68px",
-            boxSizing: "border-box",
-            border: "1px solid #000",
-            position: "relative",
-
-            borderRadius: "5px",
-          }}
-          placeholder="Enter number of choice allowed here"
-        />
       </div>
     </div>
   );

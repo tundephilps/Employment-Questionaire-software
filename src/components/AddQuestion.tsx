@@ -27,11 +27,6 @@ const AddQuestion = () => {
         }}
       >
         <Selector />
-        {/* Type */}
-
-        <div></div>
-
-        {/* Delete */}
       </div>,
     ];
     setComponents(newComponents);

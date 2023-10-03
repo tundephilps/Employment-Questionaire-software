@@ -3,7 +3,7 @@ import { IoMdClose } from "react-icons/io";
 
 const YesNoSelector = () => {
   return (
-    <div>
+    <div style={{ paddingTop: "24px" }}>
       {/* Question */}
       <div>
         <div
@@ -35,7 +35,7 @@ const YesNoSelector = () => {
         />
       </div>
       {/* Enable */}
-      <div style={{ width: "100%" }}>
+      <div style={{ width: "100%", padding: 24 }}>
         <Checkbox>Disqualify candidates if the answer is no</Checkbox>
       </div>
       {/* Delete */}

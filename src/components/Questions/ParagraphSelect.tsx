@@ -3,7 +3,7 @@ import { IoMdClose } from "react-icons/io";
 
 const ParagraphSelect = () => {
   return (
-    <div>
+    <div style={{ paddingTop: "24px" }}>
       {/* Question */}
       <div>
         <div
